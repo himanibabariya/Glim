@@ -2,6 +2,8 @@
 //Summer Vibes
 import LavenderLatte from "../Images/Summer Vibe/LavenderLatte.jpg"
 import IcedCoffee from "../Images/Summer Vibe/IcedCoffee.png"
+import StarwberryMatchaLatte from "../Images/Summer Vibe/StrawberryMatchaLatte.png"
+import IcedLemonPoundcake from "../Images/Summer Vibe/IcedLemonPoundcake.png"
 
 //Home Decor
 import RoseBear from "../Images/Home Decor/RoseBear.png"
@@ -14,20 +16,22 @@ import HeartCake from "../Images/Home Decor/HeartCake.jpg"
 import Lotus1 from "../Images/Spring Flower/Lotus1.jpg"
 import BloomingHeart from "../Images/Spring Flower/BloomingHeart.png"
 import DaisyFields from "../Images/Spring Flower/DaisyFields.png"
+import TulipBouquet from "../Images/Spring Flower/TulipBouquet.png"
+import DaisyFlower from "../Images/Spring Flower/DaisyFlower.png"
 
 //Wipped Wax
 import icecream1 from "../Images/Wipped Wax/Icecream1.jpg"
 import CupCake from "../Images/Wipped Wax/CupCake.png"
 import CottonCandy from "../Images/Wipped Wax/CottonCandy.png"
-
-import phone08 from "../Images/phone-08.png";
-
+import StarwberryShortCake from "../Images/Wipped Wax/StrowberryShortCake.png"
+import Chocolate from "../Images/Wipped Wax/Chocolate.png"
 
 //Wine Candle
 import Champgne from "../Images/Wine Candle/Champgne.jpg"
 import MiniWine from "../Images/Wine Candle/MiniWine.jpg"
-import wireless01 from "../Images/wireless-01.png";
 
+// Flower Boutique
+import DaisyBouquet from "../Images/Flower Bouquet/DaisyBouquet.png"
 
 // Home Banner Carousal
 import sofaSlide from "../Images/Banner/Banner.png"
@@ -36,8 +40,6 @@ import sofaSlide from "../Images/Banner/Banner.png"
 export const SliderData = [
   {
       id: 1,
-      // title: "Smells Like Self-Care.",
-      // desc: "you deserve cozy nights, peaceful mornings, and a scent that feels like a warm hug.",
       cover: sofaSlide,
   },
  
@@ -94,7 +96,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Cold Brew Coffe",
+    productName: "Cold Brew Coffee",
     imgUrl: IcedCoffee,
     category: "summervibe",
     price: 25.99,
@@ -106,26 +108,30 @@ export const products = [
       "Infused with high-quality fragrance oils, this candle offers a long-lasting scent that fills the room without being overwhelming. Enjoy the aroma of freshly brewed coffee with hints of cream and sugar for hours on end!",
   },
 
-  // {
-  //   id: "03",
-  //   productName: "Amazon Brand Modern Sofa",
-  //   imgUrl: LavenderLatte,
-  //   category: "summervibe",
-  //   price: 173,
-  //   shortDesc:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-  // },
+  {
+    id: "03",
+    productName: "Starwberry Matcha Latte",
+    imgUrl: StarwberryMatchaLatte,
+    category: "summervibe",
+    price: 25.99,
+    shortDesc1:
+      "This hand-poured candle features top notes of ripe strawberry, layered with soft green tea and a hint of vanilla — a scent that feels like your favorite café treat in a jar.",
+    shortDesc2: 
+      "Perfect for spring, summer, or any moment you crave a sweet escape.",
+  },
 
-  //Best Seller
-  // {
-  //   id: "26",
-  //   productName: "Rivet Bigelow Modern ",
-  //   imgUrl: productImg02,
-  //   category: "summervibe",
-  //   price: 253,
-  //   shortDesc:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-  // },
+ 
+  {
+    id: "26",
+    productName: "Iced Lemon Poundcake",
+    imgUrl: IcedLemonPoundcake,
+    category: "summervibe",
+    price: 25.99,
+    shortDesc1:
+      "Treat your senses to a mouthwatering delight with our Iced Lemon Poundcake candle, a vibrant fusion of sunshine, sweetness, and sophistication. Inspired by the warm comfort of a freshly baked lemon pound cake topped with zesty icing, this candle transforms any space into a cozy haven of citrusy indulgence.",
+    shortDesc2:
+      "Crafted with a unique blend of gel and soy wax, this candle is not only a feast for the nose but also for the eyes. The vibrant yellow swirls and embedded wax citrus pieces create a mesmerizing layered effect that mimics the real dessert — no detail is spared.",
+  },
 
 
   // {
@@ -162,7 +168,7 @@ export const products = [
     productName: "Rose Bear",
     imgUrl: RoseBear,
     category: "homedecor",
-    price: 16.99,
+    price: 14.99,
     shortDesc1:
       "Crafted meticulously with premium rapeseed wax, this candle boasts delicate details of roses, evoking feelings of serenity and romance in any space.",
     shortDesc2:
@@ -202,7 +208,7 @@ export const products = [
     productName: "Flower Bouquet",
     imgUrl: FlowerBouquet,
     category: "homedecor",
-    price:12.99,
+    price:11.99,
     shortDesc1:
       "Our most viral and bestselling candle, cherished for its perfect blend of elegance and fragrance. Featuring rich roses delicately placed atop a soft white base, this stunning candle is adorned with a graceful bow, adding a sophisticated touch to any room. The Flower Bouquet Candle not only dazzles with its visual beauty but also fills the air with the timeless scent of fresh roses, enhancing the atmosphere with a soft, romantic fragrance.",
     shortDesc2:
@@ -230,7 +236,7 @@ export const products = [
     productName: "Heart Cake",
     imgUrl: HeartCake,
     category: "homedecor",
-    price: 9.99,
+    price: 8.99,
     shortDesc1:
       "Crafted meticulously with premium Soy wax, our Heart Candle is shaped to charm and topped with a mix of juicy berries for a playful, fruity twist.",
 
@@ -246,7 +252,7 @@ export const products = [
     productName: "Romantic Couple",
     imgUrl: RomanticCouple,
     category: "homedecor",
-    price: 35.99,
+    price: 27.99,
     shortDesc:
       "",
     shortDesc1:
@@ -257,12 +263,12 @@ export const products = [
 
   {
     id: "11",
-    productName: "Strawberry Ice-cream",
-    imgUrl: icecream1,
+    productName: "Starwberry Short Cake",
+    imgUrl: StarwberryShortCake,
     category: "wippedwax",
     price: 24.99,
     shortDesc1:
-      "Crafted with meticulous attention to detail, our Strawberry Bliss candle infuses your space with the irresistible aroma of freshly picked strawberries, evoking memories of summertime picnics and berry-picking adventures.",
+      "Crafted with meticulous attention to detail, our Strawberry Short Cake candle infuses your space with the irresistible aroma of freshly picked strawberries, evoking memories of summertime picnics and berry-picking adventures.",
     shortDesc2:
       "The juicy sweetness of ripe strawberries fills the air, transporting you to fields bursting with vibrant red berries under the warm sun.",
     shortDesc3:
@@ -274,7 +280,7 @@ export const products = [
     productName: "Cup Cake",
     imgUrl: CupCake,
     category: "wippedwax",
-    price: 18.99,
+    price: 11.99,
     shortDesc1:
       "Hand-poured in a cupcake mold and made with natural soy wax, our Cupcake Candle looks as delightful as it smells — a charming treat for your senses.",
     shortDesc2:
@@ -283,15 +289,15 @@ export const products = [
       "As it burns, the rich, sweet aroma fills your space with the cozy warmth of a bakery, blending fruity berry notes with creamy vanilla for a scent that’s both playful and comforting.",
   },
 
-  // {
-  //   id: "13",
-  //   productName: "One Plus Nord",
-  //   imgUrl: phone04,
-  //   category: "wippedwax",
-  //   price: 799,
-  //   shortDesc:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-  // },
+  {
+    id: "13",
+    productName: "Chocolate",
+    imgUrl: Chocolate,
+    category: "wippedwax",
+    price: 24.99,
+    shortDesc1:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  },
 
   // {
   //   id: "14",
@@ -320,7 +326,7 @@ export const products = [
     productName: "Lotus Pond",
     imgUrl: Lotus1,
     category: "springflower",
-    price: 17.99,
+    price: 11.99,
     shortDesc1:
       "Inspired by nature’s quiet beauty, our Lotus Pond Candle is masterpiece, featuring a serene pond base adorned with delicate lotus flowers, lush green leaves, and a charming little boat on top.",
     shortDesc2:
@@ -348,7 +354,7 @@ export const products = [
     productName: "Daisy Fields",
     imgUrl: DaisyFields,
     category: "springflower",
-    price: 23.99,
+    price: 22.99,
     shortDesc1:
       "Experience the warm and inviting scent of vanilla blended with the fresh and floral aroma of daisies, creating a heavenly fragrance that will soothe your senses and lift your mood.",
     shortDesc2:
@@ -357,22 +363,24 @@ export const products = [
       "Whether you’re looking to unwind after a long day, create a romantic ambiance for a special occasion, or simply enjoy the beauty and aroma of our stunning candle, our vanilla scented Daisy Fields candle is the perfect choice.",
   },
 
-  // {
-  //   id: "19",
-  //   productName: "Apple Watch",
-  //   imgUrl: watch04,
-  //   category: "springflower",
-  //   price: 399,
-  //   shortDesc:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-  // },
+  {
+    id: "19",
+    productName: "Tulip Bouquet",
+    imgUrl: TulipBouquet,
+    category: "springflower",
+    price: 18.99,
+    shortDesc1:
+      "Bring the beauty of blooming tulips into your home with our Tulip Bouquet Candle. This handcrafted luxury candle is made from 100% natural soy wax, designed to add both elegance and a soothing fragrance to any space.",
+    shortDesc2:
+      "Inspired by fresh tulip bouquets, it serves as both a stunning décor piece and a delightful aromatic experience!",
+  },
 
   {
     id: "20",
     productName: "Champgne",
     imgUrl: Champgne,
     category: "winecandle",
-    price: 21.99,
+    price: 18.99,
     shortDesc1:
       "Crafted beautifully in a champagne glass using crystal-clear gel wax.",
     shortDesc2:
@@ -386,7 +394,7 @@ export const products = [
     productName: "Mini Wine",
     imgUrl: MiniWine,
     category: "winecandle",
-    price: 7.99,
+    price: 6.99,
     shortDesc1:
       "Tiny but full of charm, our Mini Wine Candle is a dazzling blend of gel wax, soy wax, and a touch of glitter — all poured into an elegant mini wine glass.",
     shortDesc2:
@@ -412,5 +420,33 @@ export const products = [
   //   shortDesc:
   //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   // },
+
+  {
+    id: "29",
+    productName: "Daisy Flower",
+    imgUrl: DaisyFlower,
+    category: "springflower",
+    price: 20.99,
+    shortDesc1:
+      "Experience the warm and inviting scent of vanilla blended with the fresh and floral aroma of daisies, creating a heavenly fragrance that will soothe your senses and lift your mood.",
+    shortDesc2:
+      "Crafted with soy wax and infused with high-quality fragrance oils this candle burns cleanly and evenly, ensuring a long-lasting and delightful scent that fills your room with warmth and comfort.",
+    shortDesc3:
+      "Whether you’re looking to unwind after a long day, create a romantic ambiance for a special occasion, or simply enjoy the beauty and aroma of our stunning candle, our vanilla scented Daisy Fields candle is the perfect choice.",
+  },
+
+  {
+    id: "30",
+    productName: "Daisy Bouquet",
+    imgUrl: DaisyBouquet,
+    category: "flowerbouquet",
+    price: 30.99,
+    shortDesc1:
+      "Delicate and full of natural beauty, our Daisy Bouquet Candle is a handcrafted arrangement that looks just like a real flower bouquet — featuring soy wax daisies, soft vanilla blooms, and touches of dried flowers.",
+    shortDesc2:
+      "Each petal is carefully molded to capture the charm of fresh-picked daisies, blending art and fragrance into a lovely display perfect for gifting or brightening any space.",
+    shortDesc3:
+      "As it burns, the air fills with the gentle scent of blooming daisies and creamy vanilla, creating a refreshing, floral ambiance that’s both calming and uplifting — like holding a bouquet of sunshine.",
+  },
 
 ];

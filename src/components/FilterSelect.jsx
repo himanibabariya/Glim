@@ -15,6 +15,7 @@ const options = [
     { value: "springflower", label: "SPRING FLOWER" },
     { value: "wippedwax", label: "WIPPED WAX" },
     { value: "winecandle", label: "WINE CANDLE" },
+    { value: "flowerbouquet", label: "FLOWER BOUQUET"},
 ];
 
 const customStyles = {

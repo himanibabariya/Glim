@@ -20,34 +20,18 @@ const ProductCard = ({ title, productItem }) => {
       {title === "Big Discount" ? (
         <span className="discount">{productItem.discount}% Off</span>
       ) : null}
-      <div className="product-image-wrapper" onClick={handelClick}>
-        <img
-          loading="lazy"
-          src={productItem.imgUrl}
-          alt="main"
-          className="main-img"
-        />
-        {productItem.hoverImg && (
-    <img
-      loading="lazy"
-      src={productItem.hoverImg}
-      alt="hover"
-      className="hover-img"
-    />
-  )}
-</div>
+      
+      <img
+        loading="lazy"
+        onClick={() => handelClick()}
+        src={productItem.imgUrl}
+        alt=""
+      />
       <div className="product-like">
         <ion-icon name="heart-outline"></ion-icon>
       </div>
       <div className="product-details">
         <h3 onClick={() => handelClick()}>{productItem.productName}</h3>
-        {/* <div className="rate">
-          <i className="fa fa-star"></i>
-          <i className="fa fa-star"></i>
-          <i className="fa fa-star"></i>
-          <i className="fa fa-star"></i>
-          <i className="fa fa-star"></i>
-        </div> */}
         <div className="price">
           <h4>${productItem.price}</h4>
           <button
