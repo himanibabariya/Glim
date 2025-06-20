@@ -72,6 +72,10 @@ button {
   justify-content: center;
   background-color: #f6f9fc;
   padding-bottom: 0 !important;
+
+  /* my code */
+  padding-top: 0 !important;
+  margin-top: 0;
 }
 
 /*   ---Shop Pages---   */

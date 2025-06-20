@@ -5,6 +5,12 @@
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   font-size: 1.2rem !important;
+
+  /* my code */
+  min-height: 100px; /* or more if you want */
+  padding: 20px 0 !important; /* top and bottom spacing */
+  display: flex;
+  align-items: center;
 }
 
 .navbar.fixed {
