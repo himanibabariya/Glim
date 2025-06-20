@@ -24,12 +24,18 @@ const Footer = () => {
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>Follow Us</h2>
-              <ul>
+              {/* <ul>
                 <li> <a href="https://www.instagram.com/glim.ca/" target="_blank"> <ion-icon name="logo-instagram"></ion-icon> Instagram </a></li>
                 <li> <a href="https://www.facebook.com/profile.php?id=61576710541711" target="_blank"> <ion-icon name="logo-facebook"></ion-icon> Facebook </a></li>
                 <li> <a href="https://ca.pinterest.com/glimzca/" target="_blank"><ion-icon name="logo-pinterest"></ion-icon> Pinterest </a></li>
                 <li> <a href="https://www.tiktok.com/@glim.ca" target="_blank"><ion-icon name="logo-tiktok"></ion-icon> Tiktok </a></li>
                 <li> <a href="https://www.youtube.com/@glimcandle" target="_blank"><ion-icon name="logo-youtube"></ion-icon> Youtube </a></li>
+              </ul> */}
+
+              <ul>
+                <li> <ion-icon name="logo-instagram"></ion-icon> Instagram </li>
+                <li> <ion-icon name="logo-facebook"></ion-icon> Facebook </li>
+                
               </ul>
             </Col>
             <Col md={3} sm={5} className='box'>
