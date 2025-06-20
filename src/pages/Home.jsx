@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <Fragment>
       <SliderHome />
-      <Wrapper />
+      {/* <Wrapper /> */}
       {/* <Section
         title="Big Discount"
         bgColor="#f6f9fc"

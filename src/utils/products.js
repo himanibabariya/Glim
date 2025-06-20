@@ -30,35 +30,17 @@ import wireless01 from "../Images/wireless-01.png";
 
 
 // Home Banner Carousal
-import sofaSlide from "../Images/Banner/Flower.png";
-import watchSlide from "../Images/Banner/Cake.png"
+import sofaSlide from "../Images/Banner/Banner.png"
 
 // Home Banner Carousal
 export const SliderData = [
   {
       id: 1,
-      title: "Smells Like Self-Care.",
-      desc: "you deserve cozy nights, peaceful mornings, and a scent that feels like a warm hug.",
+      // title: "Smells Like Self-Care.",
+      // desc: "you deserve cozy nights, peaceful mornings, and a scent that feels like a warm hug.",
       cover: sofaSlide,
   },
-  {
-      id: 2,
-      title: "Where Aesthetic Meets Aromatherapy.",
-      desc: "Pretty to look at. Powerful to feel. Candles that look stunning and bring real calm to your daily chaos.",
-      cover: phone08,
-  },
-  {
-      id: 3,
-      title: "Love begins where the candlelight glows.",
-      desc: "Soft flickers, warm scents, and hearts growing closer — light a moment you will never forget.",
-      cover: wireless01,
-  },
-  {
-      id: 4,
-      title: "Smells like healing energy.",
-      desc: "Infused with fragrance and pure intention — our candles don’t just smell good, they feel good.",
-      cover: watchSlide,
-  },
+ 
 ];
 
 

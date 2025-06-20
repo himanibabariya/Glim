@@ -1,31 +1,15 @@
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import { Container } from "react-bootstrap"
-import SlideCard from "./SliderCard/SlideCard"
-import { SliderData } from "../utils/products"
+import SlideCard from "./SliderCard/SlideCard";
+import { SliderData } from "../utils/products";
 
-const SliderHome = () => {
-  const settings = {
-    nav:false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-  }
+const HeroBanner = () => {
   return (
-      <section className='homeSlide'>
-        <Container>
-          <Slider {...settings}>
-          {SliderData.map((value, index) => {
-            return (
-              <SlideCard key={index} title={value.title} cover={value.cover} desc={value.desc} />
-            )
-          })}
-        </Slider>
-        </Container>
-      </section>
-  )
-}
+    <section className="homeSlide" style={{ padding: 0, margin: 0 }}>
+      {/* Remove Container if you want image to span full width */}
+      {SliderData.length > 0 && (
+        <SlideCard cover={SliderData[0].cover} />
+      )}
+    </section>
+  );
+};
 
-export default SliderHome
+export default HeroBanner;

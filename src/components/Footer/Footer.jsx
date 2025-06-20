@@ -12,13 +12,12 @@ const Footer = () => {
                   <ion-icon name="bag"></ion-icon>
                   <h1>Glim</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>Premium gifting brand that creates unique candles and Flower boutique to make every moment memorable.</p>
             </Col>
             <Col md={3} sm={5} className='box'>
-              <h2>About Us</h2>
+              <h2>Quick Links</h2>
               <ul>
-                <li>Our Stores</li>
-                <li>Our Cares</li>
+                <li>About Us</li>
                 <li>Terms & Conditions</li>
                 <li>Privacy Policy</li>
               </ul>
@@ -26,11 +25,11 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <h2>Follow Us</h2>
               <ul>
-                <li>  <ion-icon name="logo-instagram"></ion-icon> Instagram</li>
-                <li> <ion-icon name="logo-facebook"></ion-icon> Facebook</li>
-                <li> <ion-icon name="logo-pinterest"></ion-icon> Pinterest</li>
-                <li> <ion-icon name="logo-tiktok"></ion-icon> Tiktok</li>
-                <li> <ion-icon name="logo-youtube"></ion-icon> Youtube</li>
+                <li> <a href="https://www.instagram.com/glim.ca/" target="_blank"> <ion-icon name="logo-instagram"></ion-icon> Instagram </a></li>
+                <li> <a href="https://www.facebook.com/profile.php?id=61576710541711" target="_blank"> <ion-icon name="logo-facebook"></ion-icon> Facebook </a></li>
+                <li> <a href="https://ca.pinterest.com/glimzca/" target="_blank"><ion-icon name="logo-pinterest"></ion-icon> Pinterest </a></li>
+                <li> <a href="https://www.tiktok.com/@glim.ca" target="_blank"><ion-icon name="logo-tiktok"></ion-icon> Tiktok </a></li>
+                <li> <a href="https://www.youtube.com/@glimcandle" target="_blank"><ion-icon name="logo-youtube"></ion-icon> Youtube </a></li>
               </ul>
             </Col>
             <Col md={3} sm={5} className='box'>
