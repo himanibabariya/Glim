@@ -13,11 +13,12 @@ import RomanticCouple from "../Images/Home Decor/RomanticCouple.png"
 import HeartCake from "../Images/Home Decor/HeartCake.jpg"
 
 //Spring Flower
-import Lotus1 from "../Images/Spring Flower/Lotus1.jpg"
+// import Lotus1 from "../Images/Spring Flower/Lotus1.jpg"
 import BloomingHeart from "../Images/Spring Flower/BloomingHeart.png"
 import DaisyFields from "../Images/Spring Flower/DaisyFields.png"
 import TulipBouquet from "../Images/Spring Flower/TulipBouquet.png"
 import DaisyFlower from "../Images/Spring Flower/DaisyFlower.png"
+import PeonyFlower from "../Images/Spring Flower/PeonyFlower.jpg"
 
 //Wipped Wax
 import icecream1 from "../Images/Wipped Wax/Icecream1.jpg"
@@ -321,19 +322,19 @@ export const products = [
 
 
   // Spring Flower
-  {
-    id: "16",
-    productName: "Lotus Pond",
-    imgUrl: Lotus1,
-    category: "springflower",
-    price: 11.99,
-    shortDesc1:
-      "Inspired by nature’s quiet beauty, our Lotus Pond Candle is masterpiece, featuring a serene pond base adorned with delicate lotus flowers, lush green leaves, and a charming little boat on top.",
-    shortDesc2:
-      "Made with soy wax and a touch of artistic detail, this candle brings the peaceful essence of a lotus pond right into your space.",
-    shortDesc3:
-      "As it burns, the air is filled with the fresh, uplifting scent of blooming flowers — a fragrance that soothes the soul and evokes the calm of a quiet morning by the water.",
-  },
+  // {
+  //   id: "16",
+  //   productName: "Lotus Pond",
+  //   imgUrl: Lotus1,
+  //   category: "springflower",
+  //   price: 11.99,
+  //   shortDesc1:
+  //     "Inspired by nature’s quiet beauty, our Lotus Pond Candle is masterpiece, featuring a serene pond base adorned with delicate lotus flowers, lush green leaves, and a charming little boat on top.",
+  //   shortDesc2:
+  //     "Made with soy wax and a touch of artistic detail, this candle brings the peaceful essence of a lotus pond right into your space.",
+  //   shortDesc3:
+  //     "As it burns, the air is filled with the fresh, uplifting scent of blooming flowers — a fragrance that soothes the soul and evokes the calm of a quiet morning by the water.",
+  // },
 
   {
     id: "17",
@@ -445,6 +446,19 @@ export const products = [
       "Delicate and full of natural beauty, our Daisy Bouquet Candle is a handcrafted arrangement that looks just like a real flower bouquet — featuring soy wax daisies, soft vanilla blooms, and touches of dried flowers.",
     shortDesc2:
       "Each petal is carefully molded to capture the charm of fresh-picked daisies, blending art and fragrance into a lovely display perfect for gifting or brightening any space.",
+    shortDesc3:
+      "As it burns, the air fills with the gentle scent of blooming daisies and creamy vanilla, creating a refreshing, floral ambiance that’s both calming and uplifting — like holding a bouquet of sunshine.",
+  },
+  {
+    id: "31",
+    productName: "Peony Flower",
+    imgUrl: PeonyFlower,
+    category: "springflower",
+    price: 22.99,
+    shortDesc1:
+      "Elegant and timeless, our Peony Flower Candle is beautifully crafted in a clear glass jar, featuring delicate soy wax peony petals that look just like the real bloom.",
+    shortDesc2:
+      "Accented with soft floral tones and artistic detail, this candle adds a touch of romance and luxury to any room — perfect for home decor or thoughtful gifting.",
     shortDesc3:
       "As it burns, the air fills with the gentle scent of blooming daisies and creamy vanilla, creating a refreshing, floral ambiance that’s both calming and uplifting — like holding a bouquet of sunshine.",
   },
