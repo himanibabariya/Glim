@@ -12,7 +12,7 @@ const Footer = () => {
                   <ion-icon name="bag"></ion-icon>
                   <h1>Glim</h1>
               </div>
-              <p>Premium gifting brand that creates unique candles and Flower boutique to make every moment memorable.</p>
+              <p>Premium gifting brand that creates unique candles and Flower bouquet to make every moment memorable.</p>
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>Quick Links</h2>

@@ -33,6 +33,8 @@ import MiniWine from "../Images/Wine Candle/MiniWine.jpg"
 
 // Flower Boutique
 import DaisyBouquet from "../Images/Flower Bouquet/DaisyBouquet.png"
+import OneFlowerBouquet from "../Images/Flower Bouquet/OneFlower.jpg"
+import FlowerBasket from "../Images/Flower Bouquet/Flower Basket.png"
 
 // Home Banner Carousal
 import sofaSlide from "../Images/Banner/Banner.png"
@@ -461,6 +463,32 @@ export const products = [
       "Accented with soft floral tones and artistic detail, this candle adds a touch of romance and luxury to any room — perfect for home decor or thoughtful gifting.",
     shortDesc3:
       "As it burns, the air fills with the gentle scent of blooming daisies and creamy vanilla, creating a refreshing, floral ambiance that’s both calming and uplifting — like holding a bouquet of sunshine.",
+  }, 
+  {
+    id: "32",
+    productName: "Small Flower Bouquet",
+    imgUrl: OneFlowerBouquet,
+    category: "flowerbouquet",
+    price: 10.99,
+    shortDesc1:
+      "",
+    shortDesc2:
+      "",
+    shortDesc3:
+      "",
+  },
+  {
+    id: "33",
+    productName: "Flower Basket",
+    imgUrl: FlowerBasket,
+    category: "flowerbouquet",
+    price: 20.99,
+    shortDesc1:
+      "Delight in the beauty of this handcrafted floral wax melt basket, where elegance meets artistry. Nestled in a charming woven basket, delicately sculpted rose and peony-shaped candles bloom in soft ivory, lavender, and blush tones. Accented with preserved baby’s breath and vibrant dried florals, each basket is finished with a satin ribbon for a graceful touch.",
+    shortDesc2:
+      "Perfect as a romantic gift, wedding centerpiece, or a luxurious décor piece, this creation brings a warm, inviting glow and a timeless floral charm to any space.",
+    shortDesc3:
+      "",
   },
 
 ];
