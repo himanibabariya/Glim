@@ -4,13 +4,15 @@ import LavenderLatte from "../Images/Summer Vibe/LavenderLatte.jpg"
 import IcedCoffee from "../Images/Summer Vibe/IcedCoffee.png"
 import StarwberryMatchaLatte from "../Images/Summer Vibe/StrawberryMatchaLatte.png"
 import IcedLemonPoundcake from "../Images/Summer Vibe/IcedLemonPoundcake.png"
+import MangoMatchaLatte from "../Images/Summer Vibe/MangoMatchaLatte.png"
 
 //Home Decor
 import RoseBear from "../Images/Home Decor/RoseBear.png"
 import HeartCandle from "../Images/Home Decor/HeartCandle.png"
 import FlowerBouquet from "../Images/Home Decor/FlowerBouquet.jpg"
 import RomanticCouple from "../Images/Home Decor/RomanticCouple.png"
-
+import RoseBall from "../Images/Home Decor/RoseBall.png"
+import PeonyFlowerDecor from "../Images/Home Decor/PeonyFlower.png"
 
 //Spring Flower
 // import Lotus1 from "../Images/Spring Flower/Lotus1.jpg"
@@ -508,5 +510,48 @@ export const products = [
     shortDesc3:
       "",
   },
+
+  {
+    id: "35",
+    productName: "Rose Ball",
+    imgUrl: RoseBall,
+    category: "homedecor",
+    price: 11.99,
+    shortDesc1:
+      "Introducing our Rose Ball Candle, crafted with 100% natural soy wax. This elegant candle not only adds a touch of sophistication to any room but also offers a clean and eco-friendly burning experience.",
+    shortDesc2:
+      "The Rose Ball Candle features a beautiful spherical shape, adorned with delicate rose petals embedded within the wax. This unique design makes it a stunning centerpiece or decorative accent for any space. Treat yourself or surprise someone special with this luxurious and eco-friendly candle today",
+    shortDesc3:
+      "",
+  },
+
+  {
+    id: "36",
+    productName: "Peony Flower",
+    imgUrl: PeonyFlowerDecor,
+    category: "homedecor",
+    price: 6.99,
+    shortDesc1:
+      "Introducing our exquisite Large Peony Flower Candle, a captivating blend of elegance and aroma that will infuse your space with enchantment. Handcrafted with meticulous attention to detail, this candle boasts a stunning peony flower design, making it a striking addition to any room.",
+    shortDesc2:
+      "",
+    shortDesc3:
+      "",
+  },
+
+  {
+    id: "37",
+    productName: "Mango Matcha Latte",
+    imgUrl: MangoMatchaLatte,
+    category: "summervibe",
+    price: 25.99,
+    shortDesc1:
+      "Bring the feeling of a sunny spring day into your home with our Mango Matcha Latte candle. Inspired by the popular iced drink, this unique creation blends juicy, tropical notes of mango with the calming, earthy scent of matcha.",
+    shortDesc2:
+      "Its beautiful layers of green, cream, and mango tones mimic the look of a freshly mixed latte – eye-catching and deliciously aesthetic. Every detail – from the hand-poured wax to the carefully curated fragrance – is crafted to awaken your senses and add a stylish touch to any space.",
+    shortDesc3:
+      "Perfect for gifting or treating yourself to a moment of aromatic bliss.",
+  },
+
 
 ];
