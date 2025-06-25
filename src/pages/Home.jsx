@@ -7,7 +7,7 @@ import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
 
 const Home = () => {
   const newArrivalData = products.filter(
-    (item) => item.category === "wippedwax" || item.category === "winecandle"
+    (item) => item.category === "flowerbouquet" || item.category === "wippedwax"
   );
   const bestSales = products.filter((item) => item.category === "summervibe");
   useWindowScrollToTop();
