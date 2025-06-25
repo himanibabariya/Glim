@@ -6,8 +6,10 @@ const options = [
     { value: "homedecor", label: "HOME DECOR" },
     { value: "springflower", label: "SPRING FLOWER" },
     { value: "wippedwax", label: "WIPPED WAX" },
-    { value: "winecandle", label: "WINE CANDLE" },
     { value: "flowerbouquet", label: "FLOWER BOUQUET"},
+    { value: "birthday", label: "BIRTHDAY" },
+    // { value: "festive", label: "FESTIVE SEASONS" },
+    { value: "winecandle", label: "WINE CANDLE" },
 ];
 
 const customStyles = {

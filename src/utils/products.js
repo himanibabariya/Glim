@@ -10,7 +10,7 @@ import RoseBear from "../Images/Home Decor/RoseBear.png"
 import HeartCandle from "../Images/Home Decor/HeartCandle.png"
 import FlowerBouquet from "../Images/Home Decor/FlowerBouquet.jpg"
 import RomanticCouple from "../Images/Home Decor/RomanticCouple.png"
-import HeartCake from "../Images/Home Decor/HeartCake.jpg"
+
 
 //Spring Flower
 // import Lotus1 from "../Images/Spring Flower/Lotus1.jpg"
@@ -27,14 +27,18 @@ import CottonCandy from "../Images/Wipped Wax/CottonCandy.png"
 import StarwberryShortCake from "../Images/Wipped Wax/StrowberryShortCake.png"
 import Chocolate from "../Images/Wipped Wax/Chocolate.png"
 
-//Wine Candle
-import Champgne from "../Images/Wine Candle/Champgne.jpg"
-import MiniWine from "../Images/Wine Candle/MiniWine.jpg"
-
 // Flower Boutique
 import DaisyBouquet from "../Images/Flower Bouquet/DaisyBouquet.png"
 import OneFlowerBouquet from "../Images/Flower Bouquet/OneFlower.jpg"
 import FlowerBasket from "../Images/Flower Bouquet/Flower Basket.png"
+
+//Birthday
+import HeartCake from "../Images/Birthday/HeartCake.jpg"
+import LayerCake from "../Images/Birthday/LayeredCake.jpg"
+
+//Wine Candle
+import Champgne from "../Images/Wine Candle/Champgne.jpg"
+import MiniWine from "../Images/Wine Candle/MiniWine.jpg"
 
 // Home Banner Carousal
 import sofaSlide from "../Images/Banner/Banner.png"
@@ -238,8 +242,8 @@ export const products = [
     id: "25",
     productName: "Heart Cake",
     imgUrl: HeartCake,
-    category: "homedecor",
-    price: 8.99,
+    category: "birthday",
+    price: 10.99,
     shortDesc1:
       "Crafted meticulously with premium Soy wax, our Heart Candle is shaped to charm and topped with a mix of juicy berries for a playful, fruity twist.",
 
@@ -266,12 +270,12 @@ export const products = [
 
   {
     id: "11",
-    productName: "Starwberry Short Cake",
+    productName: "Starwberry Shot Cake",
     imgUrl: StarwberryShortCake,
     category: "wippedwax",
     price: 24.99,
     shortDesc1:
-      "Crafted with meticulous attention to detail, our Strawberry Short Cake candle infuses your space with the irresistible aroma of freshly picked strawberries, evoking memories of summertime picnics and berry-picking adventures.",
+      "Crafted with meticulous attention to detail, our Strawberry Shot Cake candle infuses your space with the irresistible aroma of freshly picked strawberries, evoking memories of summertime picnics and berry-picking adventures.",
     shortDesc2:
       "The juicy sweetness of ripe strawberries fills the air, transporting you to fields bursting with vibrant red berries under the warm sun.",
     shortDesc3:
@@ -487,6 +491,20 @@ export const products = [
       "Delight in the beauty of this handcrafted floral wax melt basket, where elegance meets artistry. Nestled in a charming woven basket, delicately sculpted rose and peony-shaped candles bloom in soft ivory, lavender, and blush tones. Accented with preserved baby’s breath and vibrant dried florals, each basket is finished with a satin ribbon for a graceful touch.",
     shortDesc2:
       "Perfect as a romantic gift, wedding centerpiece, or a luxurious décor piece, this creation brings a warm, inviting glow and a timeless floral charm to any space.",
+    shortDesc3:
+      "", 
+  },
+
+  {
+    id: "34",
+    productName: "Layer Cake",
+    imgUrl: LayerCake,
+    category: "birthday",
+    price: 11.99,
+    shortDesc1:
+      "",
+    shortDesc2:
+      "",
     shortDesc3:
       "",
   },
